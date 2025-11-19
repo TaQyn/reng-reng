@@ -116,7 +116,8 @@ makeSlider('acceptSlider', () => {
 
     let hash = window.location.hash.substring(1);
     // Mở trang web mới
-    window.location.href = "invi.html#" + hash; // Thay link bạn muốn
+    window.location.href = "/audio/invi.html#" + hash; // Thay link bạn muốn
 });
 makeSlider('declineSlider', () => showToast("❌ Không được từ chối đâu, phải nghe cơ"));
+
 
